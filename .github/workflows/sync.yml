@@ -8,6 +8,8 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Sync LeetCode submissions
@@ -16,5 +18,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          commit-name: "Siddhesh Deshmukh"
-          commit-email: "s.s.deshmukh00@gmail.com"
