@@ -5,8 +5,9 @@ class Solution:
         else:
             s_set, t_set = defaultdict(int), defaultdict(int)
 
-            for i in s: s_set[i] += 1
-            for i in t: t_set[i] += 1
+            for i, j in zip(s, t): 
+                s_set[i] += 1
+                t_set[j] += 1
         
         return s_set == t_set
             
