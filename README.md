@@ -4,7 +4,7 @@ Automated sync of my LeetCode submissions to GitHub using GitHub Actions.
 
 ## How it works
 
-A daily workflow runs at 8:00 AM UTC and syncs any new accepted submissions from LeetCode to this repo. Each solution is committed under my GitHub account, contributing to the activity graph.
+A daily workflow runs at 8:00 AM UTC and syncs any new accepted submissions from LeetCode to this repo.
 
 ## Setup
 
